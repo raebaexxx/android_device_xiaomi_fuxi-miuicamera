@@ -5,7 +5,7 @@
 #
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/nuwa-miuicamera/nuwa-miuicamera-vendor.mk)
+$(call inherit-product, vendor/xiaomi/fuxi-miuicamera/fuxi-miuicamera-vendor.mk)
 
 # Public libraries
 PRODUCT_COPY_FILES += \
