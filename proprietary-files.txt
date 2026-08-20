@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from nuwa OS3.0.305.0.WMBCNXM
+# All unpinned blobs below are extracted from fuxi OS3.0.308.0.WMCCNXM
 
 product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture
 system_ext/lib64/libcamera_algoup_jni.xiaomi.so:system/lib64/libcamera_algoup_jni.xiaomi.so
