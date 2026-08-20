@@ -16,8 +16,6 @@ allow platform_app proc_pressure_io:file r_file_perms;
 
 # Camera
 allow platform_app adsprpcd_file:dir { getattr search read watch };
-allow platform_app vendor_xdsp_device:chr_file { ioctl open read write };
-allow platform_app vendor_qdsp_device:chr_file { ioctl open read write };
 allow platform_app hal_camera_default:binder { call transfer };
 allow platform_app hal_camera_default:binder transfer;
 allow platform_app hal_camera_default:fd *;
